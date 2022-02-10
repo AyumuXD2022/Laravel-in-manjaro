@@ -1,0 +1,20 @@
+Entrar como administrador del Manjaro
+
+1) su
+contraseña del su
+
+2) Para actualizar el OS  
+pacman -Syyu 
+
+
+3) para instalar el php la ultima version 
+pacman -S php
+
+4) Instalar el composer
+pacman -S composer 
+
+5) Instalar el laravel en manjaro 
+composer global require "laravel/installer"
+
+6) Crear el primer archivo 
+composer create-project --prefer-dist laravel/laravel nombreDelArchivo
