@@ -18,3 +18,9 @@ composer global require "laravel/installer"
 
 6) Crear el primer archivo 
 composer create-project --prefer-dist laravel/laravel nombreDelArchivo
+
+7) Buscar el archivo
+cd nombreDelArchivo
+
+8) Correr el proyecto 
+php artisan serve
